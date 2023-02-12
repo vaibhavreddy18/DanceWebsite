@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 12px
+}
+
+.container{
+    margin: 62px 0px;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;*/
+} 
+
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    width: 25%;
+    margin: 8px;
+    padding: 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.btn{
+    font-size: 15px;
+    margin: 8px;
+    padding: 4px;
+    width: 132px;
+    background-color: rgb(60, 57, 63);
+    border: 2px solid black;
+    border-radius: 12px;
+    color: aliceblue;
+    cursor: pointer;
+}
+

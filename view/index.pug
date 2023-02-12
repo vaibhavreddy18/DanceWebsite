@@ -1,0 +1,66 @@
+//- index.pug
+doctype html
+html
+  head
+    title Vaibhav Dance Acedemy 
+    style
+      include ../static/style.css
+  body 
+    nav#navbar
+      ul 
+        div#logo 
+         img(src="../static/img/log.png", alt="")
+         | VA DANCE
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Our Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact Us]
+        
+    section#introsection 
+      div Welcome To Vaibhav's Dance Academy
+      div.small Eat Sleep Dance Repeat
+        
+
+    section#missionsection 
+      h2 Our Mission
+
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="static/img/1.png", alt="")
+          div.card-content 
+            p This is a best dance academy in the universe
+
+      div.card
+        h3 Dance the Way you like
+        div.card-box
+          div.card-img 
+            img(src="static/img/2.png", alt="")
+          div.card-content 
+            p This is a best dance academy in the universe
+
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="static/img/3.png", alt="")
+          div.card-content 
+            p This is a best dance academy in the universe 
+
+
+    section#sponsorssection 
+      h2 Our Sponsors
+      div#sponsers 
+       img(src="./static/img/logo1.png ", alt="Sponser Image", class="spImage" )
+       img(src="./static/img/logo2.png ", alt="Sponser Image", class="spImage" )
+       img(src="./static/img/logo3.png ", alt="Sponser Image", class="spImage" )
+       img(src="./static/img/logo4.png ", alt="Sponser Image", class="spImage" )
+
+    footer#footer
+      | copyright 2022 VaibhavDanceAcedemy All rights reserved
+
+
+    script
+      include ../static/index.js
